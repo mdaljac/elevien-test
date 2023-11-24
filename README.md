@@ -1,5 +1,7 @@
 # Netlify url: https://eloquent-daffodil-7b76f8.netlify.app/
 
+Node used: v18
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
