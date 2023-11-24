@@ -1,0 +1,38 @@
+@font-face {
+	font-family: "Inter";
+	src: local("Inter-Regular"),
+		url("./assets/fonts/Inter-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Inter";
+	src: local("Inter-SemiBold"),
+		url("./assets/fonts/Inter-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Inter";
+	src: local("Inter-Bold"),
+		url("./assets/fonts/Inter-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply text-body-default font-sans;
+}
+
+input[type=],
+select {
+	@apply border-gray-300 focus:ring-gray-600 focus:border-gray-600 placeholder:text-placeholder text-sm font-regular rounded-[4px];
+}
+
+label {
+	@apply text-xs font-semibold;
+}
